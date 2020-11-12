@@ -5,9 +5,10 @@ import Mywork from "./mywork";
 import Experience from "./experience";
 import Contact from "./contact";
 import Header from "./header";
-import Test from "./test";
+import Test from "./approach";
 import Research from "./research";
 import Philosophy from "./Philosophy";
+import Approach from "./approach";
 import DynamicScrollToTop from "./DynamicScrollToTop";
 
 const Main = () => {
@@ -18,6 +19,7 @@ const Main = () => {
       <Experience />
       <Route path="mywork" element={<Mywork />}></Route>
       <Philosophy />
+      <Approach />
 
       <Contact />
     </div>

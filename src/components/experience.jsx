@@ -6,20 +6,12 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
 
 const Experience = (element) => {
   return (
-  
-          <div>
-    <div id="experience" >
-      <div className="container">
-
- 
-      
-        <div className="section-title">
-          <h2>Skills</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-        </div>
+    <div>
+      <div id="experience">
+        <div className="container">
+            <h2>Skills</h2>
+          <div className="section-title">
+          </div>
           <div class="skill-section">
             <ul class="skill-grid">
               <li>
@@ -27,11 +19,13 @@ const Experience = (element) => {
                   <h3>
                     <FontAwesomeIcon icon={faCoffee} size="lg" />
                     <br />
-                   Research
+                    Research
                   </h3>
                   <p>
-                    A simple app showcasing Studio Ghibli films designed with
-                    JavaScript, HTML, and CSS through the Ghibli APIs
+                    User Experience Research, Interviews, Surveys, Focus Groups,
+                    Ethnographic Methods, Demographic Research, Participant
+                    Observation, Data Analysis, Observation, Benchmarking, Data
+                    Coding, Mapping,
                   </p>
                 </div>
               </li>
@@ -43,8 +37,9 @@ const Experience = (element) => {
                     Design
                   </h3>
                   <p>
-                    A simple app showcasing Studio Ghibli films designed with
-                    JavaScript, HTML, and CSS through the Ghibli APIs
+                    UX Design, Graphic Design, Typography, Color Theory,
+                    Branding, Prototyping, WireFraming, Sketching, Equity,
+                    Accessibility, Information Design
                   </p>
                 </div>
               </li>
@@ -56,7 +51,9 @@ const Experience = (element) => {
                     Development
                   </h3>
                   <p>
-                    I create full-stack web applications utilizing JavaScript etc combined with modern frameworks such as React.
+                    HTML, CSS, JavaScript, TypeScript, APIs, Node.js, React,
+                    PERN Application, Heroku, Firebase, Database Architecture,
+                    responsive web design, front-end & full-stack development.
                   </p>
                 </div>
               </li>
@@ -68,8 +65,9 @@ const Experience = (element) => {
                     Engagement
                   </h3>
                   <p>
-                    A simple app showcasing Studio Ghibli films designed with
-                    JavaScript, HTML, and CSS through the Ghibli APIs
+                    Empathy, Cross-Cultural Collaboration, Project Management,
+                    Client & Stakeholder Interaction, Marketing, Public Input,
+                    Creative Programming,
                   </p>
                 </div>
               </li>
@@ -78,11 +76,12 @@ const Experience = (element) => {
                   <h3>
                     <FontAwesomeIcon icon={faCoffee} size="lg" />
                     <br />
-                    Strategy
+                    Tools
                   </h3>
                   <p>
-                    A simple app showcasing Studio Ghibli films designed with
-                    JavaScript, HTML, and CSS through the Ghibli APIs
+                    Illustrator, Indesign, XD, Sketchup, Figma, SurveyMonkey,
+                    TypeForm, Esri Business Analyst, ArcMap, ArcGIS Pro,
+                    Wordpress
                   </p>
                 </div>
               </li>
@@ -94,8 +93,8 @@ const Experience = (element) => {
                     Communication
                   </h3>
                   <p>
-                    A simple app showcasing Studio Ghibli films designed with
-                    JavaScript, HTML, and CSS through the Ghibli APIs
+                    Writing, Public Speaking, Agile Methodologies, Microsoft
+                    Teams, Miro, Slack, Trello, MailChimp, Zoom, Asana,
                   </p>
                 </div>
               </li>
@@ -103,8 +102,7 @@ const Experience = (element) => {
           </div>
         </div>
       </div>
-      </div>
-
+    </div>
   );
 };
 

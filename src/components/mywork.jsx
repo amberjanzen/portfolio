@@ -4,7 +4,7 @@ import React from "react";
 // import Grid from '@material-ui/core/Grid';
 import  { Link, Outlet
   } from "react-router-dom";
-  import Test from  "./test";
+  import Test from  "./approach";
 
   // const useStyles = makeStyles((theme) => ({
   //   root: {

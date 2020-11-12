@@ -9,7 +9,6 @@ import Mywork from "./components/mywork";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
 import Research from "./components/research";
-import Test from "./components/test";
 import CaseStudy1 from "./components/work/casestudy1";
 import Portfolio from  "./components/portfolio";
 

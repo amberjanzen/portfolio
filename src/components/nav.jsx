@@ -1,5 +1,4 @@
 import React from "react";
-import Test from  "./test";
 import About from "./about";
 import {Link} from "react-router-dom";
 import Main from "./main";
