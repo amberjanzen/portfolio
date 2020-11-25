@@ -15,18 +15,14 @@ const Nav = () => {
 
       // </div>
       <div>
-        <div>
+        {/* <div> */}
           {/* <Link to  = "/Test" replace></Link> */}
-        </div>
+        {/* </div>
          <div className="sidebar-route">
            
-               
-                    {/* <Route exact path="/Test"> render ={
 
-                    }<Test /></Route> */}
-                    {/* <Route exact path="/Test"><Test /></Route> */}
 
-            </div>
+            </div> */}
 
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">

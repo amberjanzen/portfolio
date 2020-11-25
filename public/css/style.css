@@ -55,10 +55,10 @@ a:hover, a:focus {
 	color: #b08237;
 }
 ul, ol {
-	list-style: none;
+	list-style: circle;
 }
 ul, ol {
-	padding: 0;
+	padding: 1;
 	webkit-padding: 0;
 	moz-padding: 0;
 }
@@ -1053,3 +1053,4 @@ color: #777;
 	font-weight: 500;
 	font-size: 36px;
 }
+

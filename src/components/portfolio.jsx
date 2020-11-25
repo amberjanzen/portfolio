@@ -11,7 +11,7 @@ import DynamicScrollToTop  from "./DynamicScrollToTop"
 
 const Portfolio = () => {
     return (
-        <div>
+        <div id = "background">
             <DynamicScrollToTop />
             <Header />
             <Research />

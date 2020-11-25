@@ -10,6 +10,7 @@ import Experience from "./components/experience";
 import Contact from "./components/contact";
 import Research from "./components/research";
 import CaseStudy1 from "./components/work/casestudy1";
+import CaseStudy2 from "./components/work/casestudy2";
 import Portfolio from  "./components/portfolio";
 
 
@@ -40,7 +41,8 @@ function App () {
         <Route exact path = "/Research">
         <Research />
         </Route>
-        <Route exact path = "/CaseStudy1"> <CaseStudy1 /></Route>
+        <Route exact path = "/readyfortheredline"> <CaseStudy1 /></Route>
+        <Route exact path = "/noblesville-comp-plan"> <CaseStudy2 /></Route>
         {/* <Contact /> */}
         </Switch>
 

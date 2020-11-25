@@ -21,30 +21,30 @@ import Button from "@material-ui/core/Button";
 const Hi = makeStyles((theme) => ({
   root: {
     display: "flex",
-    borderRadius: 10,
+
+   
+    overflow: 'visible'
+  
   },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    margin: "-20px -20px -20px -40px",
-    height: 300,
-    display: "flex",
-    flexDirection: "column",
-  },
+ 
   details: {
     flexDirection: "column",
+     
+  
 
     display: "flex",
   },
   media: {
     padding: theme.spacing(14),
+    objectFit: 'cover',
 
-    height: 330,
+   height: 'auto',
     flex: "1 1 auto",
   },
   content: {
     flex: "1 1 auto",
-    padding: "10px 10px 0 15px",
+   
+    padding: "20px 30px 50px 30px",
   },
   button: {
     backgroundColor: "#d29a45",
@@ -70,7 +70,7 @@ export default function Research() {
             dapibus leonec.
           </p>
         </div>
-        <div className={classes.root}>
+        <div >
           <Grid container spacing={3}>
             <Grid item xs={12}>
               <Card className={classes.root} elevation={3}>
@@ -87,14 +87,10 @@ export default function Research() {
                       In 2017, my team at Big Car Collaborative recieved funds
                       through Transit Drives Indy to participate in a creative
                       placemaking project awarded through Transportation For
-                      America. The mission of this project was to activate Red
-                      Line bust stations through art and creative placemaking. I
-                      led a team in an extensive engagement process that later
-                      informed the creation of wayfinding installations at three
-                      Red Line Stations.
+                      America. 
                     </p>
                     <br />
-                    <Link to="/CaseStudy1" className={classes.button}>
+                    <Link to="/readyfortheredline" className={classes.button}>
                       {" "}
                       See Case Study
                     </Link>
@@ -120,17 +116,10 @@ export default function Research() {
                   <CardContent className={classes.content}>
                     <h3>Noblesville Comprehensive Plan</h3>
                     <p>
-                      In 2017, my team at Big Car Collaborative recieved funds
-                      through Transit Drives Indy to participate in a creative
-                      placemaking project awarded through Transportation For
-                      America. The mission of this project was to activate Red
-                      Line bust stations through art and creative placemaking. I
-                      led a team in an extensive engagement process that later
-                      informed the creation of wayfinding installations at three
-                      Red Line Stations.
+                     Implementing a shared vision of long-term development and design outcomes.Implementing a shared vision of long-term development and design outcomes.
                     </p>
                     <br />
-                    <Link to="/CaseStudy1" className={classes.button}>
+                    <Link to="/noblesville-comp-plan" className={classes.button}>
                       {" "}
                       See Case Study
                     </Link>
@@ -156,14 +145,10 @@ export default function Research() {
                   <CardContent className={classes.content}>
                     <h3>Lockerbie Public Space</h3>
                     <p>
-                      In 2017, my team at Big Car Collaborative recieved funds
+                    In 2017, my team at Big Car Collaborative recieved funds
                       through Transit Drives Indy to participate in a creative
                       placemaking project awarded through Transportation For
-                      America. The mission of this project was to activate Red
-                      Line bust stations through art and creative placemaking. I
-                      led a team in an extensive engagement process that later
-                      informed the creation of wayfinding installations at three
-                      Red Line Stations.
+                      America. 
                     </p>
                     <br />
                     <Link to="/CaseStudy1" className={classes.button}>
@@ -192,14 +177,10 @@ export default function Research() {
                   <CardContent className={classes.content}>
                     <h3>Morgan County Comprehensive Plan</h3>
                     <p>
-                      In 2017, my team at Big Car Collaborative recieved funds
+                    In 2017, my team at Big Car Collaborative recieved funds
                       through Transit Drives Indy to participate in a creative
                       placemaking project awarded through Transportation For
-                      America. The mission of this project was to activate Red
-                      Line bust stations through art and creative placemaking. I
-                      led a team in an extensive engagement process that later
-                      informed the creation of wayfinding installations at three
-                      Red Line Stations.
+                      America. 
                     </p>
                     <br />
                     <Link to="/CaseStudy1" className={classes.button}>
