@@ -1,11 +1,12 @@
 import React from "react";
+import Container from "@material-ui/core/Container";
 
 const Contact = () => {
 
     return (
       <div>
         <div id="contact">
-          <div className="container">
+          <Container>
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
@@ -112,15 +113,15 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
         <div id="footer">
-          <div className="container text-center">
+        <Container>
             <p>
               &copy; 2020 Amber Janzen. 
               
             </p>
-          </div>
+            </Container>
         </div>
       </div>
     );

@@ -188,7 +188,7 @@ th {
   padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
+/* @media print {
   *,
   *:before,
   *:after {
@@ -1602,7 +1602,7 @@ pre code {
     width: 1170px;
   }
 }
-.container-fluid {
+/* .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -2247,8 +2247,8 @@ pre code {
   .col-lg-offset-0 {
     margin-left: 0;
   }
-}
-table {
+} */
+/* table {
   background-color: transparent;
 }
 caption {
@@ -6753,5 +6753,5 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
+} */ 
 /*# sourceMappingURL=bootstrap.css.map */

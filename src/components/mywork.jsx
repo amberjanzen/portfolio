@@ -1,4 +1,6 @@
 import React from "react";
+import Container from "@material-ui/core/Container";
+
 // import { makeStyles } from '@material-ui/core/styles';
 // import Paper from '@material-ui/core/Paper';
 // import Grid from '@material-ui/core/Grid';
@@ -22,10 +24,9 @@ const Mywork = () => {
 
     return (
       <div id = "experience">
-        <div class="xop-section">
+        <Container>
           <ul class="xop-grid">
             <li>
-               
               <div class="xop-box xop-img-1">
                 <a href="https://codepen.io/amberjanzen/pen/xxZNOEr">
                   <h3>paint</h3>
@@ -86,7 +87,7 @@ const Mywork = () => {
               </div>
             </li>
           </ul>
-        </div>
+        </Container>
 
       </div>
       //   <div>

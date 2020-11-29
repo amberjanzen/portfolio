@@ -1,17 +1,39 @@
 import React from "react";
 import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
 
-const About = () => {
+
+  const aboutStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1 ,
+      display: "flex"
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'left',
+      color: theme.palette.text.secondary,
+    },
+  }));
+
+export default function About() {
+  const classes = aboutStyles();
+
   return (
+      <Container>
     <div id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
+    <div className = {classes.root}>
+    <Grid container spacing={3}>
+          <Grid item xs={12} md={6}>
+            <div className = {classes.paper}>
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
+
+            </div>
+            {" "}
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <div className = {classes.paper}>
+              <div id ="about-text">
               <h2>Amber Janzen</h2>
               <h3>
                 Hi there, I specialize in creative engagement and data
@@ -69,13 +91,14 @@ const About = () => {
                    I have always had a knack for understanding and communicating complex issues which is why I studied anthropology in my undergraduate career. I fell in love with qualitative and ethnographic research methods, but I had no intention of pursuing an academic career. I wanted to apply the skills I learned in my undergrad 
                    revolves around research, engagement, and tackling complex problems and  */}
               </p>
-            
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
+            </Grid>
+        </Grid>
     </div>
+    </div>
+      </Container>
   );
 };
 
-export default About;
+

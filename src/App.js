@@ -2,6 +2,7 @@ import React, {useEffect }from "react";
 import {BrowserRouter as Router, Redirect, Route, Switch, Routes, Link, Outlet} from "react-router-dom";
 import About from "./components/about";
 import './App.css';
+import Navbar from "./components/Navigation/Navbar";
 import Main from "./components/main";
 import Header from "./components/header";
 import Nav from "./components/nav";
@@ -15,16 +16,12 @@ import Portfolio from  "./components/portfolio";
 
 
 function App () {
-
-
-
     return (
       <div>
         <Router>
-        <Nav />
-        
+        {/* <Nav /> */}
+        <Navbar />
         <Switch>
-
         <Route exact path ="/">
           <Main />
         </Route>

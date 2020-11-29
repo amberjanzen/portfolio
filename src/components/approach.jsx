@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,7 +33,7 @@ export default function Approach() {
 
     return (
         <div id="experience">
-        <div className="container">
+        <Container>
         <div className="section-title">
           <h2>Why Me?</h2>
           <p>
@@ -72,7 +73,7 @@ export default function Approach() {
                 </Grid>
               </Grid>
               </div>
-        </div>
+              </Container>
       </div>
     )
   
